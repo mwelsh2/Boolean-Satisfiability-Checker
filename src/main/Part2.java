@@ -78,7 +78,7 @@ public class Part2 {
     }
 
     // Returns true if a given sentence holds in the given model
-    static Boolean PL_True(Set<Clause> sentence, Boolean[] model) {
+    public static Boolean PL_True(Set<Clause> sentence, Boolean[] model) {
 
         for (Clause c: sentence) {
 
